@@ -1,0 +1,113 @@
+@import url(https://db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+.App {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("https://res.cloudinary.com/dxnzcewsy/image/upload/v1691233098/portfolio/throne_nbfkbu.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+  height: 100vh;
+  margin-top: -100px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-small {
+  width: 248px;
+  height: 348px;
+}
+
+.character-info {
+  display: flex;
+  justify-content: center;
+}
+
+.houses-gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.house-info {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.GoT-font {
+  font-family: "Game of Thrones";
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+
+}
+
+.flex-sp-btw   {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.flex-sp-btw-h1{
+  font-size: 50px;
+  color:blue;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-jst-right  {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 25px;
+  
+}
+
